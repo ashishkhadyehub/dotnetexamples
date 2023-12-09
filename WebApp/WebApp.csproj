@@ -67,12 +67,20 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="DemoPage.aspx" />
     <Content Include="Index.aspx" />
     <Content Include="IPExample.aspx" />
     <Content Include="Register.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="DemoPage.aspx.cs">
+      <DependentUpon>DemoPage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="DemoPage.aspx.designer.cs">
+      <DependentUpon>DemoPage.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Index.aspx.cs">
       <DependentUpon>Index.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
