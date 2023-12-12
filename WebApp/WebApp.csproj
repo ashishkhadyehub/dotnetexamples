@@ -71,6 +71,9 @@
     <Content Include="Index.aspx" />
     <Content Include="IPExample.aspx" />
     <Content Include="Register.aspx" />
+    <Content Include="SSExample.aspx" />
+    <Content Include="SSExample1.aspx" />
+    <Content Include="VSExample.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -103,12 +106,33 @@
     <Compile Include="Register.aspx.designer.cs">
       <DependentUpon>Register.aspx</DependentUpon>
     </Compile>
+    <Compile Include="SSExample.aspx.cs">
+      <DependentUpon>SSExample.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SSExample.aspx.designer.cs">
+      <DependentUpon>SSExample.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="SSExample1.aspx.cs">
+      <DependentUpon>SSExample1.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SSExample1.aspx.designer.cs">
+      <DependentUpon>SSExample1.aspx</DependentUpon>
+    </Compile>
     <Compile Include="User.Master.cs">
       <DependentUpon>User.Master</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="User.Master.designer.cs">
       <DependentUpon>User.Master</DependentUpon>
+    </Compile>
+    <Compile Include="VSExample.aspx.cs">
+      <DependentUpon>VSExample.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="VSExample.aspx.designer.cs">
+      <DependentUpon>VSExample.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>

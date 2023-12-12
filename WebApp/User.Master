@@ -25,7 +25,8 @@
                         <div class="dropdown-menu">
                             <a class="dropdown-item" href="Register.aspx">Content Page & Validations</a>
                             <a class="dropdown-item" href="IPExample.aspx">IsPostback</a>
-                            
+                            <a class="dropdown-item" href="VSExample.aspx">ViewState</a>
+                            <a class="dropdown-item" href="SSExample.aspx">Session</a>
                         </div>
                     </li>
                     <%--<li class="nav-item">
