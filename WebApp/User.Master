@@ -29,6 +29,7 @@
                             <a class="dropdown-item" href="SSExample.aspx">Session</a>
                             <a class="dropdown-item" href="CExample.aspx">Cookies</a>
                              <a class="dropdown-item" href="QSExample.aspx">Query String</a>
+                            <a class="dropdown-item" href="OTCExample.aspx">OnTextChanged </a>
                         </div>
                     </li>
                     <%--<li class="nav-item">
