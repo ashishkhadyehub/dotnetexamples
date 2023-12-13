@@ -67,9 +67,14 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="CExample.aspx" />
+    <Content Include="CExample1.aspx" />
     <Content Include="DemoPage.aspx" />
     <Content Include="Index.aspx" />
     <Content Include="IPExample.aspx" />
+    <Content Include="OTCExample.aspx" />
+    <Content Include="QSExample.aspx" />
+    <Content Include="QSExample1.aspx" />
     <Content Include="Register.aspx" />
     <Content Include="SSExample.aspx" />
     <Content Include="SSExample1.aspx" />
@@ -77,6 +82,20 @@
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CExample.aspx.cs">
+      <DependentUpon>CExample.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CExample.aspx.designer.cs">
+      <DependentUpon>CExample.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="CExample1.aspx.cs">
+      <DependentUpon>CExample1.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CExample1.aspx.designer.cs">
+      <DependentUpon>CExample1.aspx</DependentUpon>
+    </Compile>
     <Compile Include="DemoPage.aspx.cs">
       <DependentUpon>DemoPage.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -98,7 +117,28 @@
     <Compile Include="IPExample.aspx.designer.cs">
       <DependentUpon>IPExample.aspx</DependentUpon>
     </Compile>
+    <Compile Include="OTCExample.aspx.cs">
+      <DependentUpon>OTCExample.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="OTCExample.aspx.designer.cs">
+      <DependentUpon>OTCExample.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="QSExample.aspx.cs">
+      <DependentUpon>QSExample.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="QSExample.aspx.designer.cs">
+      <DependentUpon>QSExample.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="QSExample1.aspx.cs">
+      <DependentUpon>QSExample1.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="QSExample1.aspx.designer.cs">
+      <DependentUpon>QSExample1.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Register.aspx.cs">
       <DependentUpon>Register.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
