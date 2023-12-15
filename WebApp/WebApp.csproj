@@ -72,6 +72,7 @@
     <Content Include="DemoPage.aspx" />
     <Content Include="Index.aspx" />
     <Content Include="IPExample.aspx" />
+    <Content Include="OSICExample.aspx" />
     <Content Include="OTCExample.aspx" />
     <Content Include="QSExample.aspx" />
     <Content Include="QSExample1.aspx" />
@@ -116,6 +117,13 @@
     </Compile>
     <Compile Include="IPExample.aspx.designer.cs">
       <DependentUpon>IPExample.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="OSICExample.aspx.cs">
+      <DependentUpon>OSICExample.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="OSICExample.aspx.designer.cs">
+      <DependentUpon>OSICExample.aspx</DependentUpon>
     </Compile>
     <Compile Include="OTCExample.aspx.cs">
       <DependentUpon>OTCExample.aspx</DependentUpon>
