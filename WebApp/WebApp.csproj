@@ -77,8 +77,10 @@
     <Content Include="QSExample.aspx" />
     <Content Include="QSExample1.aspx" />
     <Content Include="Register.aspx" />
+    <Content Include="ShowDataFromDBExample.aspx" />
     <Content Include="SSExample.aspx" />
     <Content Include="SSExample1.aspx" />
+    <Content Include="UploadMediaExample.aspx" />
     <Content Include="VSExample.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
@@ -154,6 +156,13 @@
     <Compile Include="Register.aspx.designer.cs">
       <DependentUpon>Register.aspx</DependentUpon>
     </Compile>
+    <Compile Include="ShowDataFromDBExample.aspx.cs">
+      <DependentUpon>ShowDataFromDBExample.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ShowDataFromDBExample.aspx.designer.cs">
+      <DependentUpon>ShowDataFromDBExample.aspx</DependentUpon>
+    </Compile>
     <Compile Include="SSExample.aspx.cs">
       <DependentUpon>SSExample.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -167,6 +176,13 @@
     </Compile>
     <Compile Include="SSExample1.aspx.designer.cs">
       <DependentUpon>SSExample1.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="UploadMediaExample.aspx.cs">
+      <DependentUpon>UploadMediaExample.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UploadMediaExample.aspx.designer.cs">
+      <DependentUpon>UploadMediaExample.aspx</DependentUpon>
     </Compile>
     <Compile Include="User.Master.cs">
       <DependentUpon>User.Master</DependentUpon>
@@ -192,6 +208,10 @@
     <None Include="Web.Release.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Photos\" />
+    <Folder Include="ThumbPhotos\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
