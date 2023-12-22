@@ -70,6 +70,7 @@
     <Content Include="CExample.aspx" />
     <Content Include="CExample1.aspx" />
     <Content Include="DemoPage.aspx" />
+    <Content Include="GVExample.aspx" />
     <Content Include="Index.aspx" />
     <Content Include="IPExample.aspx" />
     <Content Include="OSICExample.aspx" />
@@ -105,6 +106,13 @@
     </Compile>
     <Compile Include="DemoPage.aspx.designer.cs">
       <DependentUpon>DemoPage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="GVExample.aspx.cs">
+      <DependentUpon>GVExample.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="GVExample.aspx.designer.cs">
+      <DependentUpon>GVExample.aspx</DependentUpon>
     </Compile>
     <Compile Include="Index.aspx.cs">
       <DependentUpon>Index.aspx</DependentUpon>
