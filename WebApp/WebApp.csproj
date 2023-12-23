@@ -69,10 +69,12 @@
   <ItemGroup>
     <Content Include="CExample.aspx" />
     <Content Include="CExample1.aspx" />
+    <Content Include="css\fluid-gallery.css" />
     <Content Include="DemoPage.aspx" />
     <Content Include="GVExample.aspx" />
     <Content Include="Index.aspx" />
     <Content Include="IPExample.aspx" />
+    <Content Include="LiteralExample.aspx" />
     <Content Include="OSICExample.aspx" />
     <Content Include="OTCExample.aspx" />
     <Content Include="QSExample.aspx" />
@@ -127,6 +129,13 @@
     </Compile>
     <Compile Include="IPExample.aspx.designer.cs">
       <DependentUpon>IPExample.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="LiteralExample.aspx.cs">
+      <DependentUpon>LiteralExample.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="LiteralExample.aspx.designer.cs">
+      <DependentUpon>LiteralExample.aspx</DependentUpon>
     </Compile>
     <Compile Include="OSICExample.aspx.cs">
       <DependentUpon>OSICExample.aspx</DependentUpon>
