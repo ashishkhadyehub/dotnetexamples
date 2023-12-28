@@ -20,7 +20,8 @@ namespace WebApp
         protected void btnSubmit_Click(object sender, EventArgs e)
         {
             con.Close();
-            SqlCommand cmd = new SqlCommand("insert into DBUsers  values (@name,@contact,@email,@city,@dt)", con);
+           
+            SqlCommand cmd = new SqlCommand("insert into DBUsers values (@name,@contact,@email,@city,@dt)", con);
             cmd.Parameters.AddWithValue("@name",txtName.Text);
             cmd.Parameters.AddWithValue("@contact", txtContact.Text);
             cmd.Parameters.AddWithValue("@email", txtEmail.Text);
